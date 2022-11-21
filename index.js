@@ -53,7 +53,7 @@ function times(a) {
 }
 function dividedBy(a) {
   return function(b){
-    return b / a
+    return Math.floor(b / a)
   }
 }
 
